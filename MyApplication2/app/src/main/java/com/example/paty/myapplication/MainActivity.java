@@ -82,7 +82,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void showSettings() {
-        Intent intent = new Intent(MainActivity.this, Settings.class);
+        Intent intent = new Intent(MainActivity.this, ActionDrawerActivity.class);
         startActivity(intent);
     }
 }
